@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: linear-gradient(90deg, #247F92, #76A6B0, #6AAAB6 );
+    padding: 20px 0;
+}
+
+.titulo{
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #14023f;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+nav{
+    position: absolute ;
+    margin-left: 150px ;
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #14023f;
+    text-decoration: underline;
+}
+
+.inicio, .meio, .fim, .rodape{
+    padding: 20px 40px;
+	width: 940px;
+    margin: 20px auto;
+    background: linear-gradient(rgba(170, 221, 255, 0.7), rgba(224, 244, 243, 0.7),  rgba(170, 221, 255, 0.7)) ;
+}
+
+div{
+    box-sizing: content-box;
+	border: 2px solid #140230;
+    border-radius: 10px;
+}
+ 
+ .rodape{
+     text-align: center;
+ }
+
+ .principal {
+    padding: 1px;
+    background: url("Imagens/ny.jpg") no-repeat ;
+    background-size: cover;
+}
+
+.titulo-principal{
+    text-align: center;
+	font-size: 2em;
+    margin: 0 0 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #14023f;
+}
+
+.foto-esq{
+    width: 250px;
+	float: left;
+    margin: 0 20px 20px 0;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.foto-dir{
+    width: 250px;
+	float: right;
+    margin: 20px 0 10px 20px;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+p{
+    text-align: justify;
+    margin: 0 0 1em;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 15px;
+}
+
+.copyright {
+    margin: 10px 0 0;
+    text-align: center;
+    color: #14023f;
+}
+
+.icone{
+    width: 25px;
+	margin: 10px 20px 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 40px 0;
+   /* background: linear-gradient(90deg, #101012, #191816, #101012 );*/
+    background: linear-gradient( #247F92, #76A6B0, #6AAAB6 );
+}
